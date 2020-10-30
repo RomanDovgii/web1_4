@@ -1,0 +1,105 @@
+body {
+    background-color:white;
+    background-image: url("суши_шапка_фон.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.white_font {
+    color:white;
+    font-size: 30px; 
+    font-style: italic;
+}
+.logo {
+    position:absolute;
+    z-index:5;
+    padding:0px;
+    margin: 0px;
+    top:2%;
+    right: 2.9%;
+}
+.red {
+    background:rgb(165, 10, 10);
+    position: absolute; 
+    margin: 0; 
+    top:0px;
+    right:0px;
+    width: 201px;
+    height: 101px;
+    border: 1px solid red;
+}
+.menu {
+    position: absolute; 
+    right: 0px;
+    top:84.3px;
+}
+.titul {
+    margin-top: 10%;
+    text-align: center;
+}
+ul li {
+    display : inline-block;
+    text-align: center;
+    width : 78px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: rgb(165, 10, 10);
+    border: 1px solid red;
+    margin-left: -4px;
+}
+li:first-child {
+    border-bottom-left-radius: 5px;
+    width: 47px;
+}
+.search_1 {
+    background-color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 270px;
+    position:absolute;
+    left: 40.5%;
+}
+.search_2 {
+    background-color: rgb(165, 10, 10);
+    border: none;
+    border-radius: 5px;
+    width: 73px;
+    height: 40px;
+    position:absolute;
+    z-index: 5;
+    margin-top: 0.4%;
+    left: 53%;
+}
+.sushi {
+    position:absolute;
+    z-index: 5;
+    top: 35%;
+    right: 3%;
+}
+.line {
+    width: 5%;
+    color: white;
+    position: absolute;
+    top: 26.8%;
+    left: 47%;
+    opacity: 0.5;
+}
+.player {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(177, 177, 177);
+    position: absolute;
+    left: 0%;
+    top: 93.5%;
+}
+.brown_font {
+    color: rgb(68, 34, 6);
+    font-size: 30px; 
+}
+.polozenie {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+.fa {
+    color: white;
+}
