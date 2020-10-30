@@ -79,7 +79,7 @@ li:first-child {
     width: 5%;
     color: white;
     position: absolute;
-    top: 26.8%;
+    top: 29%;
     left: 47%;
     opacity: 0.5;
 }
@@ -89,7 +89,7 @@ li:first-child {
     background-color: rgb(177, 177, 177);
     position: absolute;
     left: 0%;
-    top: 93.5%;
+    top: 102.7%;
 }
 .brown_font {
     color: rgb(68, 34, 6);
@@ -97,9 +97,28 @@ li:first-child {
 }
 .polozenie {
     position: absolute;
-    top: 100%;
-    left: 40%;
+    top: 115%;
+    left: 39%;
 }
-.fa {
-    color: white;
+.tabl {
+    position: absolute;
+    top: 127%;
+    left: 0px;
+    padding: -50px;
+    text-align: center;
+}
+.vybor {
+    filter: grayscale(100%) opacity(30%);
+    padding: -50px;
+}
+.vybor:hover {
+    filter: grayscale(0%) opacity(100%);
+}
+.center {
+    text-align: center;
+}
+.centre {
+    position: absolute;
+    top: 131%;
+    left: 2.2%;
 }
